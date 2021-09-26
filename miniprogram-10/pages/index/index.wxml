@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="box">
+<view class="title">彩票号码</view>
+<view>彩票号码</view>
+<view wx:for="{{rand}}">{{item}}</view>
+<button type="primary" bindtap="newRand">彩票号码</button>
+</view>
+==========================
+<view>好好学习天天向上</view>
+<view>201923010215 电科19-2 刘德岩</view>

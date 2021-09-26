@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="box">
+  <view>
+    <input placeholder="请输入本金" type="number" bindblur="principal"></input>
+    <input placeholder="请输入利率" type="number" bindblur="interestrate"></input>
+  </view>
+  <view>Money：{{sum}}</view>
+  <button type="primary" bindtap="calc">Money</button>
+</view>
+==========================
+<view>好好学习天天向上</view>
+<view>201923010215 电科19-2 刘德岩 </view>
+
+
+
